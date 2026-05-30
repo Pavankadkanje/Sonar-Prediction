@@ -7,7 +7,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 
 # Load dataset
-sonar_data = pd.read_csv("C:\Dataset\sonar_data.csv", header=None)
+sonar_data = pd.read_csv("sonar_data.csv", header=None)
 
 # Split data
 X = sonar_data.drop(columns=[60])
